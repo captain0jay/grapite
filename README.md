@@ -1,4 +1,7 @@
 
+## Screenshots
+
+![Grapite](https://raw.githubusercontent.com/captain0jay/grapite/master/READMEimg/Front.png)
 
 ```markdown
 # Grapite
