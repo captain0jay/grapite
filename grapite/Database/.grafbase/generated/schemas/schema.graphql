@@ -1,0 +1,18 @@
+extend schema
+  @auth(
+    rules: [
+      { allow: public }
+    ]
+  )type Api @model @search {
+  name: String!
+  apikey: String! @unique
+  publishedAt: DateTime
+}
+
+type Request @model @search {
+  name: String! @unique
+  body: JSON!
+  response: JSON
+  publishedAt: DateTime
+  Expiry: DateTime
+}

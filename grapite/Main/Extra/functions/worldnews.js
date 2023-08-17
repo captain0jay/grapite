@@ -9,7 +9,7 @@ async function worldnews(name,body) {
         answer=cachethere;
     }else{
         console.log("user created function goes here...")
-
+        const currentTime = new Date();
         //Here goes code of user and when response is got sent to grafbase
         def = {"name":"default","response":"def"}
 
@@ -17,7 +17,7 @@ async function worldnews(name,body) {
         const endpoint = 'http://127.0.0.1:4000/graphql';
         const mutation = `
         mutation RequestCreate{
-            requestCreate(input: { name: "${name}", body: "${body}", response:"${def}"}) {
+            requestCreate(input: { name: "${name}", body: "${body}", response:"${def}",publishedAt: "${currentTime}}) {
               request {
                 id
               }
