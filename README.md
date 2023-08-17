@@ -3,7 +3,7 @@
 ```markdown
 # Grapite
 
-![Grapite Logo](image.png)
+![Grapite Logo](https://raw.githubusercontent.com/captain0jay/grapite/master/READMEimg/Front.png)
 
 Grapite is a caching tool developed using Grafbase and Node.js. It provides a convenient solution for caching API responses, helping users save money by reducing the frequency of API calls. With Grapite, you can easily set up caching intervals for specific API requests, optimizing the way data is retrieved and updated.
 
