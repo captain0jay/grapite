@@ -1,8 +1,3 @@
-
-## Screenshots
-
-![Grapite](https://raw.githubusercontent.com/captain0jay/grapite/master/READMEimg/Front.png)
-
 # Grapite
 
 ![Grapite Logo](https://raw.githubusercontent.com/captain0jay/grapite/master/READMEimg/Front.png)
