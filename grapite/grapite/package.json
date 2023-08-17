@@ -1,0 +1,18 @@
+{
+  "name": "grapite",
+  "version": "1.0.0",
+  "description": "Run : node main.js - to start grapite\r Run : npx grafbase dev - to start database\r Make : Run script to run both parallely in a servers",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "database": "cd Database && npx grafbase dev",
+    "backend": "cd Main && node main.js",
+    "dev": "concurrently \"npm run database\" \"npm run backend\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "concurrently": "^8.2.0"
+  }
+}
